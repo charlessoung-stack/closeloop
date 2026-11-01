@@ -28,6 +28,13 @@ closeloop/
 └── package.json            # npm workspaces
 ```
 
+## Live demo (deployed on Vercel)
+
+* **LeadGen Agent (app-1):** https://speedy-mercury-fws9i9m.tmp.now
+* **Pipeline Agent (app-2):** https://zippy-carbon-rdy9hdc.tmp.now
+
+No login required — seed data ships with the app. Both apps share the same `localStorage` key (`closeloop-db`), so a lead captured in app-1 shows up in app-2 (open them in the same browser profile).
+
 ## Quick start
 
 

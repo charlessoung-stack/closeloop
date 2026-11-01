@@ -66,11 +66,11 @@ Full honest write-up: `docs/KIRO_USAGE.md` in the repo.
 
 ## Links
 
-- GitHub: [<REPO_URL>]
-- Working apps: LeadGen [<APP1_URL>] · Pipeline [<APP2_URL>]
-- Demo video (YouTube, public, < 3 min): [<VIDEO_URL>]
-- Blog post: [<BLOG_URL>]
-- Social post: [<SOCIAL_URL>]
+- GitHub: https://github.com/charlessoung-stack/closeloop
+- Working apps: LeadGen https://speedy-mercury-fws9i9m.tmp.now · Pipeline https://zippy-carbon-rdy9hdc.tmp.now
+- Demo video (YouTube, public, < 3 min): [<VIDEO_URL> — record per docs/VIDEO_SCRIPT.md]
+- Blog post: [<BLOG_URL> — publish per docs/BLOG_DRAFT.md]
+- Social post: [<SOCIAL_URL> — post per docs/SOCIAL_DRAFT.md]
 
 ## Category & awards
 

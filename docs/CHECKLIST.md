@@ -24,7 +24,7 @@
 | R3 | `/.kiro` at root, NOT gitignored | ✅ | `.gitignore` lines 18–19: `!.kiro` / `!.kiro/**` guards; full tree present (steering 3, specs 9, hooks 2, agents 1, settings 1). |
 | R4 | Specs + hooks + steering present | ✅ | `.kiro/steering/{product,tech,structure}.md` (`inclusion: always`); specs = EARS requirements + design + tasks for 3 features; hooks = 2 `PostFileSave` JSON per documented v1 format. |
 | R5 | All code after 2026-10-30 | ✅ | Every file created 2026-11-01 (inside submission period). |
-| R6 | Working app URLs + test credentials | ⚠️ | Local verification: `npm run typecheck` ✅, `npm test` 22/22 ✅, `npm run build` ✅, `vite preview` HTTP 200 for both apps. No login needed; seed uses fictional companies. Public URLs: ⏳ user deploys (Vercel/Netlify) and fills README/Devpost. |
+| R6 | Working app URLs + test credentials | ✅ | Local verification: `npm run typecheck` ✅, `npm test` 22/22 ✅, `npm run build` ✅, `vite preview` HTTP 200. **Deployed on Vercel:** LeadGen https://speedy-mercury-fws9i9m.tmp.now · Pipeline https://zippy-carbon-rdy9hdc.tmp.now. No login needed; seed uses fictional companies. |
 | R7 | Video < 3 min, public YouTube, no copyright music | ⏳ | `docs/VIDEO_SCRIPT.md` = ~170 s script with CC0/voiceover-only audio policy. User records/renders/uploads. |
 | R8 | Kiro usage write-up done | ✅ | `docs/KIRO_USAGE.md` — honest first-time-use write-up, configs validated against kiro.dev/docs. |
 | R9 | Category chosen + bonus fields filled | ✅ | **Skeleton Crew** (template + 2 independent app folders). Bonus: Blog + Social Blitz apply. Startup/Student/Ghost of 2025: N/A (not student, not founder, first Kiroween). |
