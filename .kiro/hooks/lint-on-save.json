@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Type-check on save",
+      "trigger": "PostFileSave",
+      "matcher": "\\.(ts|tsx)$",
+      "action": { "type": "command", "command": "npm run typecheck" },
+      "timeout": 120,
+      "description": "Runs tsc --noEmit across all workspaces after every TypeScript file save, so type regressions surface immediately."
+    }
+  ]
+}

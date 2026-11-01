@@ -1,0 +1,18 @@
+{
+  "name": "closeloop-sales",
+  "description": "Closeloop implementation agent: builds and maintains the B2B agent sales-loop template and its two apps, always following the Closeloop steering docs and specs, writing tests alongside code.",
+  "tools": ["read", "write", "edit", "shell", "glob", "grep"],
+  "includeMcpJson": true,
+  "includePowers": true,
+  "resources": [
+    "file://.kiro/steering/**/*.md",
+    "file://.kiro/specs/**/*.md"
+  ],
+  "permissions": {
+    "rules": [
+      { "capability": "shell", "match": ["npm *", "npx *", "git *"], "effect": "allow" }
+    ]
+  },
+  "prompt": "You are Closeloop's implementation agent. Non-negotiables: (1) follow .kiro/steering and .kiro/specs; (2) every public core function ships with unit tests and PBT where the requirements mark a property; (3) demo must run with zero API keys; (4) never put .kiro in .gitignore; (5) keep submission-facing materials in English.",
+  "welcomeMessage": "Closeloop workspace loaded. Working from specs — what would you like to build next?"
+}

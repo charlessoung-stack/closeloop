@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run tests on test-file save",
+      "trigger": "PostFileSave",
+      "matcher": "\\.test\\.(ts|tsx)$",
+      "action": { "type": "command", "command": "npm run test:quiet" },
+      "timeout": 180,
+      "description": "Runs the vitest suite (silent) whenever a test file is saved, including the fast-check property tests."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# logs & OS noise
+*.log
+.DS_Store
+
+# deployment tooling
+.vercel
+.vscode/
+
+# ------------------------------------------------------------------
+# Kiroween 2026 OFFICIAL RULE: the /.kiro directory must be tracked.
+# Do NOT add .kiro or its subfolders to .gitignore (disqualification).
+# The negations below are a deliberate guard — keep them.
+# ------------------------------------------------------------------
+!.kiro
+!.kiro/**

@@ -1,0 +1,29 @@
+{
+  "name": "@closeloop/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Closeloop reusable core: B2B agent sales-loop pipeline engine, agents, storage and UI kit.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:quiet": "vitest run --silent",
+    "build": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "fast-check": "^3.22.0",
+    "typescript": "^5.6.3",
+    "vitest": "^3.0.5"
+  }
+}

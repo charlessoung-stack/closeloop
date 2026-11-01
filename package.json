@@ -1,0 +1,18 @@
+{
+  "name": "closeloop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Closeloop — B2B agent-powered closed loop: lead acquisition → sales → process management. Kiroween 2026 (Skeleton Crew).",
+  "license": "MIT",
+  "workspaces": ["template", "app-1", "app-2"],
+  "scripts": {
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:quiet": "npm run test:quiet --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present",
+    "dev:leadgen": "npm run dev -w app-1",
+    "dev:pipeline": "npm run dev -w app-2",
+    "preview:leadgen": "npm run preview -w app-1",
+    "preview:pipeline": "npm run preview -w app-2"
+  }
+}
